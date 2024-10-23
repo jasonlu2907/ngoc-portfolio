@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import Footer from './Footer';
 import Menu from './Menu';
