@@ -22,6 +22,7 @@ const MyWorks = () => {
       year: '2024',
       color: 'bg-purple-600',
       link: 'https://ai-quizme-ten.vercel.app/',
+      github: 'https://github.com/jasonlu2907/ai-quizme',
     },
     {
       id: 2,
@@ -32,6 +33,7 @@ const MyWorks = () => {
       year: '2023',
       color: 'bg-blue-600',
       link: 'https://github.com/jasonlu2907/3310_Group3',
+      github: 'https://github.com/jasonlu2907/3310_Group3',
     },
     {
       id: 3,
@@ -42,6 +44,7 @@ const MyWorks = () => {
       year: '2024',
       color: 'bg-green-600',
       link: 'https://rental-places.vercel.app/',
+      github: 'https://github.com/jasonlu2907/rental-places',
     },
   ];
 
@@ -133,6 +136,12 @@ const MyWorks = () => {
                       <div className='flex gap-8 text-sm text-neutral-400'>
                         <span>{project.role}</span>
                         <span>{project.year}</span>
+                        <Link
+                          to={project.github}
+                          className='hover:border-b-2 transition-all ease-in duration-75'
+                        >
+                          Repository
+                        </Link>
                       </div>
                     </div>
                     <div

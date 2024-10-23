@@ -6,9 +6,9 @@ const Main = ({ id }: { id: string }) => {
           <div className='text-2xl font-bold'>ngoc</div>
 
           <div className='flex flex-col justify-between pl-10'>
-            <h1 className='text-6xl font-bold mb-6'>Frontend Developer.</h1>
+            <h1 className='text-6xl font-bold mb-6'>Software Developer.</h1>
             <p className='text-xl mb-10'>
-              I like to craft solid and scalable frontend products with great
+              I like to craft solid and scalable software products with great
               user experiences.
             </p>
           </div>
@@ -23,8 +23,8 @@ const Main = ({ id }: { id: string }) => {
               </div>
               <div className='w-5/12'>
                 <h3 className='text-lg font-light'>
-                  Proven experience building successful products for clients
-                  across several countries.
+                  Proven experience building successful products, delivering
+                  solutions to business needs.
                 </h3>
               </div>
             </div>
