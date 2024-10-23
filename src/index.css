@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100%;
+    overflow: auto;
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-6xl mx-auto px-4;
+  }
+}
+
+@layer utilities {
+  .transition-300 {
+    @apply transition duration-300 ease-in-out;
+  }
+}
